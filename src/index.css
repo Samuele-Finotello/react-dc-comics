@@ -4,3 +4,21 @@
   box-sizing: border-box;
   font-family: Open Sans;
 }
+
+header {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(103, 104, 103);
+}
+
+#links {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  margin: 0 15px;
+  font-weight: 800;
+}
