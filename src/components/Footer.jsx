@@ -20,7 +20,7 @@ const Footer = () => {
             <span>COMIC SHOP LOCATOR</span>
           </div>
           <div>
-            <img src="/img/buy-dc-power-visa.svg" alt="Power Visa" />
+            <img id="visa" src="/img/buy-dc-power-visa.svg" alt="Power Visa" />
             <span>DC POWER VISA</span>
           </div>
         </div>
@@ -78,7 +78,21 @@ const Footer = () => {
         </div>
       </div>
       <div id="socials">
-
+        <div className="space-between container">
+          <div>
+            <button><h2>SIGN-UP NOW!</h2></button>
+          </div>
+          <div className="space-between align-items-center">
+            <span><h2>FOLLOW US</h2></span>
+            <ul>
+              <li><img src="/img/footer-facebook.png" alt="Facebook" /></li>
+              <li><img src="/img/footer-twitter.png" alt="Twitter" /></li>
+              <li><img src="/img/footer-youtube.png" alt="Youtube" /></li>
+              <li><img src="/img/footer-pinterest.png" alt="Pinterest" /></li>
+              <li><img src="/img/footer-periscope.png" alt="Periscope" /></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   )

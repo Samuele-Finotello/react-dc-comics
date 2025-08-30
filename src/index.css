@@ -17,6 +17,13 @@ main {
   padding: 50px 0;
 }
 
+button {
+  padding: 15px;
+  border: 3px solid rgb(0, 129, 245);
+  color: white;
+  background-color: rgb(49, 49, 49);
+}
+
 #links {
   list-style-type: none;
   display: flex;
@@ -47,12 +54,16 @@ main {
 }
 
 #marketplace img {
-  height: 100px;
+  height: 80px;
   vertical-align: middle;
 }
 
 #marketplace span {
-  margin: 0 20px;
+  margin: 0 15px;
+}
+
+#visa {
+  width: 80px;
 }
 
 #info {
@@ -63,8 +74,19 @@ main {
 }
 
 #socials {
-  height: 150px;
-  background-color: lightslategray;
+  padding: 50px 0;
+  color: rgb(0, 129, 245);
+  background-color: rgb(49, 49, 49);
+}
+
+#socials ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 20px;
+}
+
+#socials ul li {
+  margin: 0 10px;
 }
 
 .container {
@@ -80,4 +102,9 @@ main {
 .space-between {
   display: flex;
   justify-content: space-between;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
 }
