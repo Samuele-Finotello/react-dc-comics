@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className='container'>
+    <header className='container space-between'>
       <div>
         <img src="/img/dc-logo.png" alt="Logo" />
       </div>
