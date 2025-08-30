@@ -19,9 +19,9 @@ main {
   padding: 50px 0;
 }
 
-.container {
-  max-width: 70%;
-  margin: 0 auto;
+ul li {
+  margin: 0 15px;
+  font-weight: 800;
 }
 
 #links {
@@ -29,7 +29,37 @@ main {
   display: flex;
 }
 
-ul li {
-  margin: 0 15px;
-  font-weight: 800;
+#marketplace {
+  padding: 70px 0;
+  color: white;
+  background-color: rgb(0, 129, 245);
+}
+
+#marketplace img {
+  height: 100px;
+  vertical-align: middle;
+}
+
+#marketplace span {
+  margin: 0 20px;
+}
+
+#info {
+  height: 500px;
+  background-image: url(/img/footer-bg.jpg);
+}
+
+#socials {
+  height: 150px;
+  background-color: lightslategray;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
 }
