@@ -19,9 +19,9 @@ header {
 }
 
 main {
+  padding-bottom: 50px;
   background-color: rgb(28, 28, 28);
   color: white;
-  padding: 50px 0;
 }
 
 footer {
@@ -37,6 +37,14 @@ button {
   border: 3px solid rgb(0, 129, 245);
   color: white;
   background-color: rgb(49, 49, 49);
+}
+
+#jumbotron {
+  height: 475px;
+  background-image: url(/img/jumbotron.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #links {
@@ -98,8 +106,33 @@ button {
 }
 
 .container {
-  max-width: 70%;
+  max-width: 1500px;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-16 {
+  width: calc(100% / 6);
+}
+
+.card {
+  width: 100%;
+  padding: 30px 15px;
+}
+
+.card img {
+  width: 100%;
+  height: 230px;
+  object-position: top;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 20px;
 }
 
 .space-around {
