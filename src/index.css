@@ -57,6 +57,11 @@ button {
   font-weight: 800;
 }
 
+#links li a {
+  text-decoration: none;
+  color: rgb(103, 104, 103);
+}
+
 #lists {
   padding: 50px 0;
   display: flex;
