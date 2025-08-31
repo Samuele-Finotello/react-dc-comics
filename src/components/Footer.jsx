@@ -73,7 +73,6 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <img src="/img/dc-logo-bg.png" alt="DC" />
           </div>
         </div>
       </div>
