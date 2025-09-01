@@ -5,7 +5,11 @@ const Main = () => {
     <main>
       <div id='jumbotron'></div>
       <div className='container'>
+        <button id='button-up'>CURRENT SERIES</button>
         <ComicList />
+        <div className='justify-center'>
+          <button>LOAD MORE</button>
+        </div>
       </div>
     </main >
   )

@@ -155,7 +155,7 @@ const ComicList = () => {
   ];
 
   return (
-    <div className="row">
+    <div className="row mt-40">
       {comicsList.map(comic => {
         const { id, thumb, title, series } = comic;
         return (

@@ -32,11 +32,25 @@ footer {
   background-size: 32%;
 }
 
-button {
+footer button {
   padding: 15px;
   border: 3px solid rgb(0, 129, 245);
   color: white;
   background-color: rgb(49, 49, 49);
+}
+
+main button {
+  padding: 15px 50px;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(0, 129, 245);
+}
+
+#button-up {
+  position: absolute;
+  top: 55%;
+  border: none;
 }
 
 #jumbotron {
@@ -126,7 +140,7 @@ button {
 
 .card {
   width: 100%;
-  padding: 30px 15px;
+  padding: 20px 15px;
 }
 
 .card img {
@@ -138,6 +152,10 @@ button {
 
 .card h3 {
   margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .space-around {
@@ -153,4 +171,9 @@ button {
 .align-items-center {
   display: flex;
   align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
 }
