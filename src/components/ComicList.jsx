@@ -1,3 +1,5 @@
+import ComicCard from "./ComicCard";
+
 const ComicList = () => {
   const comicsList = [
     {
@@ -160,10 +162,7 @@ const ComicList = () => {
         const { id, thumb, title, series } = comic;
         return (
           <div className="col-16">
-            <div className="card" key={id}>
-              <img src={thumb} alt={title} />
-              <h3>{series}</h3>
-            </div>
+            <ComicCard id={id} thumb={thumb} title={title} series={series} />
           </div>
         )
       })}
