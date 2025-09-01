@@ -1,8 +1,9 @@
-const ComicCard = ({ id, thumb, title, series }) => {
+const ComicCard = ({ comics }) => {
+
   return (
-    <div className="card" key={id}>
-      <img src={thumb} alt={title} />
-      <h3>{series}</h3>
+    <div className="card" key={comics.id}>
+      <img src={comics.thumb} alt={comics.title} />
+      <h3>{comics.series}</h3>
     </div>
   )
 }

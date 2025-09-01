@@ -159,10 +159,11 @@ const ComicList = () => {
   return (
     <div className="row mt-40">
       {comicsList.map(comic => {
-        const { id, thumb, title, series } = comic;
+        //const { id, thumb, title, series } = comic;
         return (
           <div className="col-16">
-            <ComicCard id={id} thumb={thumb} title={title} series={series} />
+            <ComicCard comics={comic}
+            /*id={id} thumb={thumb} title={title} series={series}*/ />
           </div>
         )
       })}
